@@ -71,4 +71,5 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
 ![Salary_vs_skill_chart.png](/assets/Salary_vs_skill_chart.png)
 
+## 2️⃣ 🌍 How do salaries differ across regions?
 
