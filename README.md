@@ -27,36 +27,36 @@ To analyze trends in the job market, this project focuses on the following quest
 This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of **50,000 job postings** spanning multiple industries.  
 🔗 [AI-Powered Job Recommendations Dataset](https://www.kaggle.com/datasets/samayashar/ai-powered-job-recommendations)
 
-## 1️ 💰 should I have more skills to get better pay?
+## 1️⃣ 💰 Should having more skills lead to better pay?
 
 ### 🧹 Skill: Power Query (ETL)
 
 #### 📥 Extract
 
-- I used Power Query to extract the original data (original_dataset.csv) and create two questies:
-    - 🗃️ First one with all the data jobs information.
-    - 🔧 The second listing the skills for each job ID.
+- Power Query was used to extract the original dataset (`original_dataset.csv`) and create two queries:
+    - 🗃️ One query containing all job-related information.
+    - 🔧 A second query listing the required skills for each job ID.
 
 #### 🔄 Transform
 
-- I transformed each query by indexing, removing unnecessary columns, clearning skills column. 
+- Both queries were transformed by indexing columns, removing unnecessary fields, and cleaning the skills column.
 
-    - 📊 job_recommendation_dataset
+    - 📊 job_recommendation_dataset  
 
     ![job_recommendation_dataset_transformation.png](/assets/job_recommendation_dataset_transformation.png)
 
-    - 🛠️ job_skills
+    - 🛠️ job_skills  
 
     ![job_skills.png](/assets/job_skills.png)
 
 #### 📤 Load
 
-- I loaded both transformed queries into the workbook.
+- The transformed queries were loaded into the Excel workbook.
 
-    - 📊 job_recommendation_dataset
+    - 📊 job_recommendation_dataset  
 
     ![job_recommendation_data_load.png](/assets/job_recommendation_data_load.png)
 
-    - 🛠️ job_skills
+    - 🛠️ job_skills  
 
     ![job_skills_load.png](/assets/job_skills_load.png)
