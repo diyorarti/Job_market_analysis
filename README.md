@@ -65,9 +65,10 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
 #### 💡 Insights
 
-    - Jobs requiring a higher number of skills tend to offer higher salaries.
-    - Specialized roles can achieve high pay with fewer but highly specific skills.
-    - Skill quantity and skill specialization both influence compensation.
+- Jobs requiring a higher number of skills tend to offer higher salaries.
+- Specialized roles can achieve high pay with fewer but highly specific skills.
+- Skill quantity and skill specialization both influence compensation.
 
-    ![Salary_vs_skill_chart.png](/assets/Salary_vs_skill_chart.png)
+![Salary_vs_skill_chart.png](/assets/Salary_vs_skill_chart.png)
+
 
