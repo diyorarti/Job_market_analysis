@@ -150,7 +150,6 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
     ![Top_paying_10skills.png](/assets/Top_paying_10skills.png)
 
-## ✅ Conclusion
 
 ## ✅ Conclusion
 
