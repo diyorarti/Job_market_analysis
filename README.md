@@ -105,7 +105,7 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
 ### 🧩 Skill: Power Pivot
 
-#### 🗄️ Data Modeling
+#### 💪 Power Pivot
 
 - I created a Data Model by integrating the `job_recommendation_dataset` and `job_skills` tables into one model.
 - Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
