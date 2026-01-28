@@ -11,7 +11,8 @@ To analyze trends in the job market, this project focuses on the following quest
 
 1. Is there a correlation between the number of required skills and salary levels?
 2. How do salaries differ across regions?
-3. Which top 10 skills are associated with the highest pay?
+3. What are the top skils ? 
+4. Which top 10 skills are associated with the highest pay?
  
 
 ## 🧠 Skills Set
@@ -77,9 +78,9 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
 #### 📈Pivot Table
 
-- I created a PivotTable using Data Model created with PowerPivot
-- Then, I dropped `Job_Title` column to the rows area and `Salary` column to the values area.
-- Them I added new measure to calculate the median salary for London jobs.
+- A Pivot Table was created using the data model built with **Power Pivot**.
+- The `Job_Title` field was placed in the **Rows** area, while `Salary` was added to the **Values** area.
+- Median salary metrics were calculated to compare compensation across different regions.
     ```
     =CALCULATE(job_recommendation_dataset[Salary], 
                job_recommendation_dataset[Location]="London")
@@ -87,8 +88,7 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
 #### 🧮 DAX
 
-- DAX is used to calculate medial salary 
-
+- DAX was used to calculate the overall median salary across all regions:
     ```
     Median Salary := MEDIAN(job_recommendation_dataset[Salary])
     ```
@@ -101,8 +101,32 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
     ![Salary_analysis.png](/assets/Salary_analysis.png)
 
-
+## 3️⃣ What are the top skills ?
 
 ### 🧩 Skill: Power Pivot
 
 #### 🗄️ Data Modeling
+
+- I created a Data Model by integrating the `job_recommendation_dataset` and `job_skills` tables into one model.
+- Since I had already cleaned the data using Power Query; Power Pivot created a relationship between these two tables.
+
+#### 🗄️ Data Model
+
+- I created a relationship between my two tables using the `Job_id` column.
+
+    ![Data_model_ERD.png](/assets/Data_model_ERD.png)
+
+#### ⚙️ Power Pivot Menu
+
+- The Power Pivot menu was used to refine the data model, manage table relationships, and efficiently create DAX measures.
+
+    ![Power_Pivot_Menu.png](/assets/Power_Pivot_Menu.png)
+
+### 📊Analysis
+
+#### 📌 Insights
+
+- Technical skills dominate demand across regions, with Python and SQL ranking as the most frequently requested skills, highlighting the strong demand for data and software-related expertise across industries.
+- Operational and business skills remain highly relevant, as skills such as Production Planning, Quality Control, Supply Chain, Sales, and Customer Service also show high demand, indicating that employers value a balance between technical and business-oriented capabilities.
+
+    ![Skill_and_Job_analysis.png](/assets/Skill_and_Job_analysis.png)
