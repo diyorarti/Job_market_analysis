@@ -73,3 +73,36 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
 ## 2️⃣ 🌍 How do salaries differ across regions?
 
+### 🧮 Skills: PivotTables & DAX
+
+#### 📈Pivot Table
+
+- I created a PivotTable using Data Model created with PowerPivot
+- Then, I dropped `Job_Title` column to the rows area and `Salary` column to the values area.
+- Them I added new measure to calculate the median salary for London jobs.
+    ```
+    =CALCULATE(job_recommendation_dataset[Salary], 
+               job_recommendation_dataset[Location]="London")
+    ```
+
+#### 🧮 DAX
+
+- DAX is used to calculate medial salary 
+
+    ```
+    Median Salary := MEDIAN(job_recommendation_dataset[Salary])
+    ```
+
+### 📊 Analysis
+
+#### 💡 Insights
+- London-based roles consistently offer higher median salaries compared to non-London regions. Across all listed job roles, the overall median salary in London is $127,000, while non-London roles average $95,000, highlighting a significant regional pay gap.
+- The salary premium in London applies across diverse job categories, including administrative, technical, creative, and engineering roles. This suggests that location has a strong influence on compensation, often outweighing job type in determining salary levels.
+
+    ![Salary_analysis.png](/assets/Salary_analysis.png)
+
+
+
+### 🧩 Skill: Power Pivot
+
+#### 🗄️ Data Modeling
