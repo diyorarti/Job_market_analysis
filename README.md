@@ -130,3 +130,23 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 - Operational and business skills remain highly relevant, as skills such as Production Planning, Quality Control, Supply Chain, Sales, and Customer Service also show high demand, indicating that employers value a balance between technical and business-oriented capabilities.
 
     ![Skill_and_Job_analysis.png](/assets/Skill_and_Job_analysis.png)
+
+## 4️⃣ Which top 10 skills are associated with the highest pay?
+
+### 📈 Skill: Advanced Charts (Pivot Chart)
+
+#### 📊 Pivot Chart
+
+- I created a combo PivotChart to plot medial salary and skill count from my PivotTable.
+    -  **Primary Axis:** Median Salary (as a Clustered Column)
+    -  **Secondary Axis:** Skill Count (as a Line with Markers)
+
+### 📊 Analysis
+
+#### 💡Insights
+
+- Technical skills lead the top-paying roles, with SQL and Python showing the highest median salaries among the top 10 skills, indicating strong demand and high compensation for data and programming expertise.
+- High salary does not always correlate with high demand, as some skills with relatively lower job counts (e.g., Quality Control or EdTech) still offer competitive median salaries, suggesting that specialization can drive pay even when demand is moderate.
+
+    ![Top_paying_10skills.png](/assets/Top_paying_10skills.png)
+
