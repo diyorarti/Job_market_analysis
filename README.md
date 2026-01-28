@@ -150,3 +150,8 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
     ![Top_paying_10skills.png](/assets/Top_paying_10skills.png)
 
+## ✅ Conclusion
+
+## ✅ Conclusion
+
+This analysis demonstrates that both the **number of skills** and **skill specialization** play a crucial role in determining salary levels in the job market. Roles requiring broader skill sets and strong technical expertise, particularly in areas such as **Python and SQL**, tend to offer higher compensation. Additionally, **location significantly impacts salary**, with London-based roles consistently earning more than non-London positions across job categories. Overall, the findings highlight the importance of strategic skill development and geographic considerations for job seekers aiming to maximize their earning potential.
