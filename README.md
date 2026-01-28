@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-As a job seeker, I have always been interested in identifying patterns in the job market, particularly in understanding which skills top employers demand and how these skills relate to high-paying roles. This project aims to analyze job market data to uncover insights that can help job seekers make informed career decisions.
+As a job seeker, I have always been interested in identifying patterns in the job market, particularly in understanding which skills are the most demand and how these skills relate to high-paying roles. This project aims to analyze job market data to uncover insights that can help job seekers make informed career decisions.
 
 
 ### 🎯 Questions
@@ -10,7 +10,7 @@ As a job seeker, I have always been interested in identifying patterns in the jo
 To analyze trends in the job market, this project focuses on the following questions:
 
 1. Is there a correlation between the number of required skills and salary levels?
-2. How do salaries differ across regions?
+2. How do salaries differ across big cities?
 3. What are the top skils ? 
 4. Which top 10 skills are associated with the highest pay?
  
@@ -72,7 +72,7 @@ This [dataset](/dataset/original_dataset.csv), sourced from Kaggle, consists of 
 
 ![Salary_vs_skill_chart.png](/assets/Salary_vs_skill_chart.png)
 
-## 2️⃣ 🌍 How do salaries differ across regions?
+## 2️⃣ 🌍 How do salaries differ across big cities?
 
 ### 🧮 Skills: PivotTables & DAX
 
